@@ -16,6 +16,7 @@ for /f "tokens=*" %%x in (v.txt) do (
 )
 echo %var[2]%
 rem if %var[2]% = v1.01 (echo "Infinitum is up to date (%var[2]%)") else (echo "Infinitum is not up to date or isnt installed. Current version: %var[2]%")
+cls
 echo "Note: Update checker is still under dev. For now it will only display when the latest release was, thanks!"
 if %var[2]%==v1.01 (echo Infinitum Last updated %var[2]%) else (echo "Infinitum Last updated %var[2]%")
 echo exiting...
