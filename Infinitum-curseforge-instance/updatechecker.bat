@@ -18,3 +18,5 @@ echo %var[2]%
 rem if %var[2]% = v1.01 (echo "Infinitum is up to date (%var[2]%)") else (echo "Infinitum is not up to date or isnt installed. Current version: %var[2]%")
 
 if %var[2]%==v1.01 (echo Infinitum is up to date %var[2]%) else (echo "Infinitum is not up to date or isnt installed. Current version: %var[2]%")
+echo exiting...
+@pause
