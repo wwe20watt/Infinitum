@@ -25,8 +25,8 @@ fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:32
-simulationDistance:32
+renderDistance:8
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -36,7 +36,7 @@ graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:true
+renderClouds:fast
 resourcePacks:["vanilla","Fabric Mods"]
 incompatibleResourcePacks:[]
 lastServer:localhost
@@ -120,6 +120,7 @@ key_key.crawl:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.l
+key_key.entityculling.toggle:key.keyboard.unknown
 key_Show comparison tooltip:key.keyboard.left.shift
 key_key.inmis.open_backpack:key.keyboard.b
 key_key.merenc.frostWalker:key.keyboard.k
